@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { defaultMetadata } from '../../utils/metadata';
 
 import Image, {StaticImageData } from 'next/image';
 import image1 from '../../../public/images/project1.png';
@@ -20,7 +21,7 @@ url: string;
 urlDisplay: string;
 imageSrc: StaticImageData;
 };
-function ProjectItem({ name, url, urlDisplay, imageSrc}: ProjectItemProps) {
+function ProjectItem({ name, url, urlDisplay, imageSrc, metadata}: any) {
 return (
 <li>
     <a href={url}>

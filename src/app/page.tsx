@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Image, { StaticImageData } from 'next/image';
 import image1 from '../../public/images/24164548224.jpg';
 
+import { defaultMetadata } from '../utils/metadata';
+
 export const metadata: Metadata = {
   title: 'Tentang Saya',
   description: 'Halaman tentang perjalanan dan pengalaman saya.',
@@ -33,7 +35,7 @@ function AboutItem({ name, urlDisplay, imageSrc }: AboutItemProps) {
   );
 }
 
-export default function AboutMe() {
+export default function AboutMe({metadata}: any) {
   return (
     <div className="mt-16 px-8 max-w-3xl mx-auto">
       <header className="text-center">

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { defaultMetadata } from '../../utils/metadata';
 
 export const metadata: Metadata = {
   title: 'Essays',
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Essays() {
+export default function Essays({metadata}: any) {
   return (
     <div className="mt-16 px-8 max-w-3xl mx-auto">
       <header className="text-center">
