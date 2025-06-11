@@ -23,3 +23,15 @@
 --- Halaman Esai
 ![Screenshot](assets/04.png)
 
+### Tugas SEO Pertemuan 6
+
+Lakukan pengujian SEO dengan
+1. Gunakan tools seperti Google Search Console untuk memeriksa performa SEO dari suatu
+website.
+
+## Jawaban
+
+--- Halaman Setelah menambahkan metadata, favicon, dan Open Graph Tags, Anda dapat menguji SEO dengan
+Membuka halaman di browser dan memeriksa elemen HTML menggunakan Developer Tools (Ctrl + Shift
++ I atau F12).
+![Screenshot](assets/05.png)
